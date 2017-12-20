@@ -32,3 +32,6 @@ ROOT_METHOD := magisk
 #Sign namath to official
 DOT_OFFICIAL := true
 DOT_BUILDTYPE := OFFICIAL
+
+#Don't use PA camera
+PA_CAM := false
