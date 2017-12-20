@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_kernel_motorola_namath",
+    "target_path": "kernel/motorola/namath"
+  },
+  {
+    "repository": "android_vendor_motorola_namath",
+    "target_path": "vendor/motorola/namath" 
+  }
+]
