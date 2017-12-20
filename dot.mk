@@ -28,3 +28,7 @@ PRODUCT_LOCALES := en_US en_GB ru_RU uk_UA tr_TR sk_SK vi_VN fr_FR ar_EG
 #use magisk
 WITH_MAGISK := true
 ROOT_METHOD := magisk
+
+#Sign namath to official
+DOT_OFFICIAL := true
+DOT_BUILDTYPE := OFFICIAL
