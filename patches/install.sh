@@ -2,7 +2,7 @@ echo $1
 rootdirectory="$PWD"
 # ---------------------------------
 
-dirs="frameworks/av frameworks/base frameworks/native system/netd system/core"
+dirs="frameworks/av frameworks/base frameworks/native system/netd system/core system/bt packages/apps/Settings packages/apps/Snap"
 
 for dir in $dirs ; do
 	cd $rootdirectory
