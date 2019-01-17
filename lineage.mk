@@ -3,9 +3,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := namath
 
-# Inherit some common ViperOS stuff.
-$(call inherit-product, vendor/viper/cm/common_full_phone.mk)
-
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/motorola/namath/device_namath.mk)
 
