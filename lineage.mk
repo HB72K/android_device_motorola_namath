@@ -15,7 +15,7 @@ DEVICE_RESOLUTION := 480x854
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := namath
-PRODUCT_NAME := viper_namath
+PRODUCT_NAME := ResurrectionRemix_namath
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto C
 PRODUCT_MANUFACTURER := Motorola
