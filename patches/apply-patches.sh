@@ -15,6 +15,3 @@ cd ../..
 cd system/core	
 git apply -v ../../device/motorola/namath/patches/0005-system_core.patch	
 cd ../..
-cd system/bt
-git apply -v ../../device/motorola/namath/patches/0001-system_bt.patch
-cd ../..
