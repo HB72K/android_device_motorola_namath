@@ -1207,4 +1207,3 @@ index ba99d0c..6cd3f5f 100644
          module->common.methods->open(&module->common, HWVULKAN_DEVICE_0,
 -- 
 1.9.1
-
