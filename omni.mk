@@ -6,6 +6,9 @@ PRODUCT_RELEASE_NAME := namath
 # Omni config
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/motorola/namath/device_namath.mk)
 
@@ -14,6 +17,7 @@ TARGET_SCREEN_WIDTH := 480
 DEVICE_RESOLUTION := 480x854
 
 # Device identifier. This must come after all inclusions
+PRODUCT_BRAND := Android
 PRODUCT_DEVICE := namath
 PRODUCT_NAME := omni_namath
 PRODUCT_BRAND := Motorola
