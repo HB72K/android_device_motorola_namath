@@ -3,6 +3,9 @@
 # Release name
 PRODUCT_RELEASE_NAME := namath
 
+# Get the prebuilt list of APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Omni config
 $(call inherit-product, vendor/omni/config/common.mk)
 
@@ -10,7 +13,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/motorola/namath/omni_namath.mk)
+$(call inherit-product, device/motorola/namath/device_namath.mk)
 
 TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
