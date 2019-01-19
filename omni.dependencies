@@ -1,14 +1,12 @@
 [
   {
-    "repository": "Moto-C-namath-kernel",
-    "target_path": "kernel/motorola/namath"
-  },
-  {
-    "repository": "android_device_motorola_namath",
-    "target_path": "device/motorola/namath"
-  },
-  {
-    "repository": "android_vendor_motorola_namath",
-    "target_path": "vendor/motorola/namath" 
+    
+    
+    
+    
+    
+    
+    
+    
   }
 ]
