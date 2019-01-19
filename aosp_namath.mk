@@ -3,7 +3,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := namath
 
-# Omni config
+# Inherit some common CM stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from the common Open Source product configuration
