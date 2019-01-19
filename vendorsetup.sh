@@ -21,6 +21,6 @@
 # definition file).
 #
 
-add_lunch_combo omni_namath-eng
-add_lunch_combo omni_namath-userdebug
-add_lunch_combo omni_namath-user
+add_lunch_combo aosp_namath-eng
+add_lunch_combo aosp_namath-userdebug
+add_lunch_combo aosp_namath-user
