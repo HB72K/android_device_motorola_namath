@@ -65,9 +65,6 @@ TARGET_USES_64_BIT_BINDER := true
 endif
 BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_TAGS_OFFSET)
 
-#Custom TC
-TARGET_TC_KERNEL := 4.9-uber
-
 # make_ext4fs requires numbers in dec format
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216 
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216 
