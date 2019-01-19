@@ -18,8 +18,8 @@ DEVICE_RESOLUTION := 480x854
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Android
-PRODUCT_DEVICE := namath
 PRODUCT_NAME := omni_namath
+PRODUCT_DEVICE := namath
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto C
 PRODUCT_MANUFACTURER := Motorola
