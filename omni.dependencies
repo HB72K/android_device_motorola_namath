@@ -1,11 +1,11 @@
 [
   {
-    "repository": "android_kernel_motorola_namath",
+    "repository": "Moto-C-namath-kernel",
     "target_path": "kernel/motorola/namath"
   },
   {
-    "repository": "prebuilts_gcc_arm_eabi_4.9",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber"
+    "repository": "android_device_motorola_namath",
+    "target_path": "device/motorola/namath"
   },
   {
     "repository": "android_vendor_motorola_namath",
