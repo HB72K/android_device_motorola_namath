@@ -4,10 +4,10 @@
 PRODUCT_RELEASE_NAME := namath
 
 # Get the prebuilt list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/aosp/config/gsm.mk)
 
 # Omni config
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -21,7 +21,7 @@ DEVICE_RESOLUTION := 480x854
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Android
-PRODUCT_NAME := omni_namath
+PRODUCT_NAME := aosp_namath
 PRODUCT_DEVICE := namath
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto C
