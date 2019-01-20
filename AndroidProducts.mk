@@ -23,6 +23,6 @@
 
 # inherit MI PAD 4 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp.mk \
-         $(LOCAL_DIR)/device_namath.mk
+    $(LOCAL_DIR)/aosp.mk 
+       
 
