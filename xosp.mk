@@ -27,3 +27,6 @@ PRODUCT_LOCALES := en_US en_GB ru_RU uk_UA tr_TR sk_SK vi_VN fr_FR ar_EG es_ES e
 
 #Root
 ROOT_METHOD := magisk
+
+# XOSP release typed
+RELEASE_TYPE := XOSP_UNOFFICIAL
